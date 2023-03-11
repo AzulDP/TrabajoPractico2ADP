@@ -1,0 +1,11 @@
+Collecting diagnostic info
+
+git version 2.39.1
+cpu: x86_64
+no commit associated with this build
+sizeof-long: 8
+sizeof-size_t: 8
+shell-path: /bin/sh
+feature: fsmonitor--daemon
+Repository root: /Users/azul
+Available space on '/Users/azul': 6510.58 GiB (mount flags 0x0)
