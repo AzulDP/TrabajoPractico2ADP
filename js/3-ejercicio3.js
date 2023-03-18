@@ -4,4 +4,8 @@
 
 // Nota: usar confirm() 
 
-let text = prompt ('')
+let text = prompt ('Ingrese texto').toLowerCase;
+console.log (text.toLowerCase());
+console.log (text.toUpperCase());
+
+

@@ -9,7 +9,6 @@
 
 // Si ingreso un número que no esté dentro del rango de 0 a 10 mostrar un mensaje de “número erróneo”. Si el número ingresado no es válido mostrar el mensaje “Introduce un número válido”.
 
-
 // while
 /*while (condicion logica){
     todo el codigo que quiero repetir
@@ -17,7 +16,6 @@
 }
 SI no se hace, tenes un bucle infinito = carga carga carga y nada pasa
 */
-
 
 // let contador =1;
 // while(contador<=10){
@@ -30,7 +28,7 @@ SI no se hace, tenes un bucle infinito = carga carga carga y nada pasa
 //     document.write(`<p>Este es el renglon N${contador+1}</P>`);
 //     contador = contador+1;
 // O USAR
-// contador++ 
+// contador++
 // SINO
 // contador+=2;
 // contador = contador +2; (si inicializo contador en 0 se muestra el cero, sino empezar en 2)
@@ -50,32 +48,43 @@ agregar algo que haga que mi condicion logica de deje de cumplir
 // do {
 //     document.write(`<p>Esta es la linea N${vueltas}</p>`);
 // vueltas++;
-// }while(vueltas<11) 
+// }while(vueltas<11)
 // for (let vowels = 0; vowels <=sentence.length; vowels++) {
 
-let number = parseInt(prompt('Ingrese una calificación del 0 al 10'));
-// let limite = 10
+let mark = parseInt(prompt("Ingrese una calificación del 0 al 10"));
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
+
+switch (mark) {
+  case 0:
+  case 1:
+  case 2:
+    alert("Muy deficiente");
+    break;
+  case 3:
+  case 4:
+    alert("Insuficiente");
+    break;
+  case 5:
+  case 6:
+    alert("Suficiente");
+    break;
+  case 7:
+    alert("Bien");
+    break;
+  case 8:
+  case 9:
+    alert("Notable");
+    break;
+  case 10:
+    alert("Sobresaliente");
+    break;
+    case (mark> 10):
+        document.write('Número erroneo');
+    break;
+  default:
+    document.write("Introduce un número válido");
+  //   case
+  //   break;
 }
-for (let number = 0; number < array.length; number++) {   
-if (number == 0 || number == 1 || number == 2) {
-    alert('Muy deficiente');
-}else if (number == 3 || number == 4) {
-    alert('Insuficiente');
-}else if (number == 5 || number == 6) {
-    alert('Suficiente')
-}else if (number == 7) {
-    alert('Bien');
-}else if (number ==8 ||number == 9) {
-    alert('Notable');
-}else if (number == 10) {
-    alert('Sobresaliente');
-}else if (number > 10){
-document.write('Número erroneo')
-}else{
-    document.write('Introduce un número válido')
-}
-}
+
+

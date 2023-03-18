@@ -13,3 +13,17 @@
 // 8 (Múltiplo de 4)
 // 9 (Múltiplo de 9)
 // 10
+
+for(let number =1; number <=500; number++){
+    document.write(number);
+    if (number%4===0){
+    document.write(' - (múltiplo de 4) ');
+        }    if (number%9===0){
+    document.write(' - (múltiplo de 9) ');
+}   
+document.write('<br>');
+
+    if (number%5===0){
+document.write('<hr>');
+}   
+}
