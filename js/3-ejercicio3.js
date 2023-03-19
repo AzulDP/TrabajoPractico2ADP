@@ -6,11 +6,13 @@
 // Nota: usar confirm() 
 
 let text = prompt('Ingrese una cadena de texto');
-let vueltas = confirm((text)== true);
+let count = 0;
+
+confirm((text)== true);
 
 do  {
     document.write('Ingrese una cadena de texto');
-} while(vueltas == true){
+} while(count == true){
     document.write(`${text} + '- '`);
 }
 
