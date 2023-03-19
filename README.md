@@ -9,7 +9,7 @@ En este trabajo práctico
 En una terminal ejecuta el siguiente comando: 
 
 ```
-git clone https://github.com/AzulDP/TrabajoPractico1ADP.git
+git clone https://github.com/AzulDP/TrabajoPractico2ADP.git
 ```
 
 ## Autora

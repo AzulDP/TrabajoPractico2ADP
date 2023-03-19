@@ -10,8 +10,8 @@ let count = 0;
 
 if (confirm(number) == true) {
   for (let i = 0; i < number.length; i++) {
-      sum += parseInt(number[i]);
-    count++;
+    sum += parseInt(number[i]);
+    // count++;
   }
 } else if (isNaN(number)) {
   alert("No es un número");
